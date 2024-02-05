@@ -1,0 +1,66 @@
+:cor {
+    --cor-primaria: rgb(255,219,10);
+    --cor-hover: linear-gradient(90deg, rgba(255,219,10,1) 0%, rgba(0,255,55,1) 100%);
+  }
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(tempo.jpeg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    #container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    h1, h3{
+    text-align: center;
+}
+    #container input[type="date"],
+    #container button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #fcf83c;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+    #container input[type="date"]:hover,
+    #container button:hover{
+    background-color: rgb(41, 185, 41);
+    border-color: #29b930;
+}
+    #container input[type="date"]:focus,
+    #container button:focus{
+    outline: none;
+    background-color: #29b930;
+    border-color: rgb(41, 185, 41);
+}
+    #eventosContainer{
+    margin-top: 20px;
+}
+    #eventosContainer img{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #000000;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
